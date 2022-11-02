@@ -1,0 +1,64 @@
+.root {
+  flex-direction: row;
+  width: 216px;
+  height: 64px;
+  display: flex;
+  padding-right: 16px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  cursor: pointer;
+  position: relative;
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: calc(0px - 12px);
+  width: calc(100% + 12px);
+}
+.root > :global(.__wab_flex-container) > *,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.root > :global(.__wab_flex-container) > picture > img,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
+  margin-left: 12px;
+}
+.link {
+  display: block;
+  font-size: 20px;
+  text-align: center;
+  font-family: "Sofia Pro";
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 20px;
+  color: rgba(255, 255, 255, 1);
+  position: relative;
+}
+.root:hover .link {
+  color: #c9ff00;
+}
+.freeBox {
+  display: block;
+  position: relative;
+  width: 16px;
+  height: 14px;
+  flex-shrink: 0;
+}
+.img {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  transform: scale(1.000000499999875, 0.999999500000375)
+    rotate(-179.94270423958343deg) skew(0.05729570311883569deg, 0deg);
+  width: 18px;
+  height: 16px;
+  display: block !important;
+  transform-origin: top left;
+  left: 16px;
+  top: 14px;
+}
+.img > picture > img {
+  object-fit: cover;
+}
+.img > :global(.__wab_img-spacer) > img {
+  object-fit: cover;
+}

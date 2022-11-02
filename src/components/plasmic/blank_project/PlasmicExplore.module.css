@@ -1,0 +1,20 @@
+.root {
+  display: block;
+  font-size: 18px;
+  text-align: center;
+  font-family: "Sofia Pro";
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 20px;
+  color: rgba(255, 255, 255, 1);
+  padding-bottom: 0px;
+  width: 198px;
+  height: 62px;
+  background: #000000;
+  padding-top: 21px;
+  cursor: pointer;
+  position: relative;
+}
+.root:hover {
+  color: #c9ff00;
+}

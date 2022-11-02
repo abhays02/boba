@@ -1,0 +1,13 @@
+.root {
+  object-fit: cover;
+  max-width: 100%;
+  color: #fff;
+  opacity: 1;
+  width: 24px;
+  height: 19px;
+  display: block;
+  position: relative;
+}
+.root:hover {
+  opacity: 0.4;
+}

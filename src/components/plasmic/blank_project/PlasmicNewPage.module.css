@@ -461,76 +461,10 @@
   color: rgba(0, 0, 0, 1);
   position: relative;
 }
-.wireframingButtonsLargeDefault2 {
-  flex-direction: row;
-  transform: translate(0px, -0.3040000000000873px);
-  width: 310px;
-  height: 64px;
-  display: flex;
+.ourmultichain:global(.__wab_instance) {
   position: absolute;
   top: 3700px;
   left: 1087px;
-  padding: 24px 32px;
-}
-.wireframingButtonsLargeDefault2 > :global(.__wab_flex-container) {
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  margin-left: calc(0px - 12px);
-  width: calc(100% + 12px);
-}
-.wireframingButtonsLargeDefault2 > :global(.__wab_flex-container) > *,
-.wireframingButtonsLargeDefault2
-  > :global(.__wab_flex-container)
-  > :global(.__wab_slot)
-  > *,
-.wireframingButtonsLargeDefault2
-  > :global(.__wab_flex-container)
-  > picture
-  > img,
-.wireframingButtonsLargeDefault2
-  > :global(.__wab_flex-container)
-  > :global(.__wab_slot)
-  > picture
-  > img {
-  margin-left: 12px;
-}
-.link__vobH4 {
-  display: block;
-  font-size: 20px;
-  text-align: center;
-  font-family: "Sofia Pro";
-  font-weight: 400;
-  letter-spacing: 0em;
-  line-height: 20px;
-  color: rgba(255, 255, 255, 1);
-  position: relative;
-}
-.freeBox__iSmX0 {
-  display: block;
-  position: relative;
-  width: 16px;
-  height: 14px;
-  flex-shrink: 0;
-}
-.img__qoNn {
-  position: absolute;
-  object-fit: cover;
-  max-width: 100%;
-  transform: scale(1.000000499999875, 0.999999500000375)
-    rotate(-179.94270423958343deg) skew(0.05729570311883569deg, 0deg);
-  width: 18px;
-  height: 16px;
-  display: block !important;
-  transform-origin: top left;
-  left: 16px;
-  top: 14px;
-}
-.img__qoNn > picture > img {
-  object-fit: cover;
-}
-.img__qoNn > :global(.__wab_img-spacer) > img {
-  object-fit: cover;
 }
 .hero {
   width: 1920px;
@@ -561,6 +495,8 @@
   top: 372px;
   width: 200px;
   height: 64px;
+  flex-grow: 0;
+  flex-shrink: 1;
   display: flex;
 }
 .svg__tfoli {
@@ -574,6 +510,43 @@
   object-fit: cover;
   width: 1em;
   height: 1em;
+}
+.exploreDapps {
+  flex-direction: row;
+  width: 203px;
+  height: 64px;
+  display: flex;
+  position: absolute;
+  left: 749px;
+  top: 373px;
+  background: linear-gradient(
+      90deg,
+      var(--token-Ai6WMTp5z) 0%,
+      var(--token-a9gNT4Nbc) 100%
+    )
+    0% 0% / 100% 100% repeat;
+  padding: 24px 32px;
+}
+.exploreDapps > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: calc(0px - 12px);
+  width: calc(100% + 12px);
+}
+.exploreDapps > :global(.__wab_flex-container) > *,
+.exploreDapps > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.exploreDapps > :global(.__wab_flex-container) > picture > img,
+.exploreDapps
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 12px;
+}
+.get:global(.__wab_instance) {
+  position: relative;
+  flex-shrink: 0;
 }
 .launchApp {
   flex-direction: row;
@@ -624,128 +597,10 @@
   color: rgba(0, 0, 0, 1);
   position: relative;
 }
-.exploreDapps {
-  flex-direction: row;
-  width: 203px;
-  height: 64px;
-  display: flex;
-  position: absolute;
-  left: 750px;
-  top: 372px;
-  background: linear-gradient(
-      90deg,
-      var(--token-XB6KjTHe4) 0%,
-      var(--token-a9gNT4Nbc) 100%
-    )
-    top 50% left 50% / cover repeat;
-  padding: 24px 32px;
-}
-.exploreDapps > :global(.__wab_flex-container) {
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  margin-left: calc(0px - 12px);
-  width: calc(100% + 12px);
-}
-.exploreDapps > :global(.__wab_flex-container) > *,
-.exploreDapps > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
-.exploreDapps > :global(.__wab_flex-container) > picture > img,
-.exploreDapps
-  > :global(.__wab_flex-container)
-  > :global(.__wab_slot)
-  > picture
-  > img {
-  margin-left: 12px;
-}
-.exploreDapps2 {
-  display: block;
-  font-size: 18px;
-  text-align: center;
-  font-family: "Sofia Pro";
-  font-weight: 400;
-  letter-spacing: 0em;
-  line-height: 20px;
-  color: rgba(255, 255, 255, 1);
-  position: relative;
-  background: #000000;
-  width: 201px;
-  height: 62px;
-  padding-top: 3px;
-  cursor: pointer;
-  flex-shrink: 0;
-}
-.wireframingButtonsLargeDefault3 {
-  flex-direction: row;
-  width: 216px;
-  height: 64px;
-  display: flex;
+.buil:global(.__wab_instance) {
   position: absolute;
   top: 342px;
   left: 1190px;
-  padding-right: 16px;
-  padding-top: 24px;
-  padding-bottom: 24px;
-  cursor: pointer;
-}
-.wireframingButtonsLargeDefault3 > :global(.__wab_flex-container) {
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  margin-left: calc(0px - 12px);
-  width: calc(100% + 12px);
-}
-.wireframingButtonsLargeDefault3 > :global(.__wab_flex-container) > *,
-.wireframingButtonsLargeDefault3
-  > :global(.__wab_flex-container)
-  > :global(.__wab_slot)
-  > *,
-.wireframingButtonsLargeDefault3
-  > :global(.__wab_flex-container)
-  > picture
-  > img,
-.wireframingButtonsLargeDefault3
-  > :global(.__wab_flex-container)
-  > :global(.__wab_slot)
-  > picture
-  > img {
-  margin-left: 12px;
-}
-.link__uWzd3 {
-  display: block;
-  font-size: 20px;
-  text-align: center;
-  font-family: "Sofia Pro";
-  font-weight: 400;
-  letter-spacing: 0em;
-  line-height: 20px;
-  color: rgba(255, 255, 255, 1);
-  position: relative;
-}
-.freeBox__jbpc6 {
-  display: block;
-  position: relative;
-  width: 16px;
-  height: 14px;
-  flex-shrink: 0;
-}
-.img__jaHdT {
-  position: absolute;
-  object-fit: cover;
-  max-width: 100%;
-  transform: scale(1.000000499999875, 0.999999500000375)
-    rotate(-179.94270423958343deg) skew(0.05729570311883569deg, 0deg);
-  width: 18px;
-  height: 16px;
-  display: block !important;
-  transform-origin: top left;
-  left: 16px;
-  top: 14px;
-}
-.img__jaHdT > picture > img {
-  object-fit: cover;
-}
-.img__jaHdT > :global(.__wab_img-spacer) > img {
-  object-fit: cover;
 }
 .group {
   opacity: 0.3;
@@ -770,10 +625,10 @@
   object-fit: cover;
   max-width: 100%;
   width: 4131.57px;
-  height: 706.331px;
+  height: 616px;
   display: block !important;
-  top: 0px;
-  left: 0px;
+  top: -110px;
+  left: 171px;
 }
 .img__ncQYd > picture > img {
   object-fit: cover;
@@ -782,12 +637,8 @@
   object-fit: cover;
 }
 .rectangle2287 {
-  background: linear-gradient(
-      180deg,
-      rgba(16, 16, 16, 1) 0%,
-      rgba(0, 0, 0, 1) 99%
-    )
-    0% 0% / 100% 100% no-repeat;
+  background: linear-gradient(180deg, #10101000 0%, transparent 99%) 0% 0% /
+    100% 100% no-repeat;
   width: 1920px;
   height: 900px;
   display: block;
@@ -835,22 +686,8 @@
   > img {
   margin-left: 12px;
 }
-.getStarted2 {
-  display: block;
-  font-size: 18px;
-  text-align: center;
-  font-family: "Sofia Pro";
-  font-weight: 400;
-  letter-spacing: 0em;
-  line-height: 20px;
-  color: rgba(255, 255, 255, 1);
+.explore:global(.__wab_instance) {
   position: relative;
-  padding-bottom: 0px;
-  width: 198px;
-  height: 62px;
-  background: #000000;
-  padding-top: 21px;
-  cursor: pointer;
   flex-shrink: 0;
 }
 .nextGenWeb3ScalingSolution {
@@ -1056,7 +893,7 @@
   object-fit: cover;
   max-width: 100%;
   width: 4131.57px;
-  height: 706.331px;
+  height: 474px;
   display: block !important;
   top: 0px;
   left: 0px;
@@ -1838,21 +1675,9 @@
   > img {
   margin-left: 12px;
 }
-.text___0Kzvz {
-  display: block;
-  font-size: 20px;
-  text-align: center;
-  font-family: "Sofia Pro";
-  font-weight: 400;
-  letter-spacing: 0em;
-  line-height: 20px;
-  color: rgba(255, 255, 255, 1);
+.gaming:global(.__wab_instance) {
   position: relative;
-  width: 264px;
-  background: #000000;
-  height: 62px;
   margin-bottom: 0px;
-  padding-top: 20px;
   flex-shrink: 0;
 }
 .textContainer {
@@ -2823,91 +2648,14 @@
   > img {
   margin-left: 12px;
 }
-.buttonDefault2 {
-  display: block;
-  font-size: 20px;
-  text-align: center;
-  font-family: "Sofia Pro";
-  font-weight: 400;
-  letter-spacing: 0em;
-  line-height: 20px;
-  color: #ffffff;
+.documentation:global(.__wab_instance) {
   position: relative;
-  width: 198px;
-  background: #000000;
-  height: 62px;
-  padding-top: 20px;
   flex-shrink: 0;
 }
-.wireframingButtonsLargeDefault7 {
-  flex-direction: row;
-  width: 310px;
-  height: 64px;
-  display: flex;
+.showmultichain:global(.__wab_instance) {
   position: absolute;
   top: 6884px;
   left: 1046px;
-  padding: 24px 32px;
-}
-.wireframingButtonsLargeDefault7 > :global(.__wab_flex-container) {
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  margin-left: calc(0px - 12px);
-  width: calc(100% + 12px);
-}
-.wireframingButtonsLargeDefault7 > :global(.__wab_flex-container) > *,
-.wireframingButtonsLargeDefault7
-  > :global(.__wab_flex-container)
-  > :global(.__wab_slot)
-  > *,
-.wireframingButtonsLargeDefault7
-  > :global(.__wab_flex-container)
-  > picture
-  > img,
-.wireframingButtonsLargeDefault7
-  > :global(.__wab_flex-container)
-  > :global(.__wab_slot)
-  > picture
-  > img {
-  margin-left: 12px;
-}
-.text___8CbL {
-  display: block;
-  font-size: 20px;
-  text-align: center;
-  font-family: "Sofia Pro";
-  font-weight: 400;
-  letter-spacing: 0em;
-  line-height: 20px;
-  color: rgba(255, 255, 255, 1);
-  position: relative;
-}
-.freeBox__kuo6Y {
-  display: block;
-  position: relative;
-  width: 16px;
-  height: 14px;
-  flex-shrink: 0;
-}
-.img__y68Zf {
-  position: absolute;
-  object-fit: cover;
-  max-width: 100%;
-  transform: scale(1.000000499999875, 0.999999500000375)
-    rotate(-179.94270423958343deg) skew(0.05729570311883569deg, 0deg);
-  width: 18px;
-  height: 16px;
-  display: block !important;
-  transform-origin: top left;
-  left: 16px;
-  top: 14px;
-}
-.img__y68Zf > picture > img {
-  object-fit: cover;
-}
-.img__y68Zf > :global(.__wab_img-spacer) > img {
-  object-fit: cover;
 }
 .wireframingButtonsLargeDefault8 {
   flex-direction: row;
@@ -2998,20 +2746,8 @@
   > img {
   margin-left: 12px;
 }
-.buttonDefault4 {
-  display: block;
-  font-size: 20px;
-  text-align: center;
-  font-family: "Sofia Pro";
-  font-weight: 400;
-  letter-spacing: 0em;
-  line-height: 20px;
-  color: rgba(255, 255, 255, 1);
+.partner:global(.__wab_instance) {
   position: relative;
-  background: #0c0c0c;
-  width: 208px;
-  height: 62px;
-  padding-top: 20px;
   flex-shrink: 0;
 }
 .investors3 {
@@ -3182,75 +2918,10 @@
   top: 3895px;
   left: 313px;
 }
-.wireframingButtonsLargeDefault10 {
-  flex-direction: row;
-  width: 198px;
-  height: 64px;
-  display: flex;
+.bobaedu:global(.__wab_instance) {
   position: absolute;
   top: 552px;
   left: 674px;
-  padding: 24px 0px 24px 32px;
-}
-.wireframingButtonsLargeDefault10 > :global(.__wab_flex-container) {
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  margin-left: calc(0px - 12px);
-  width: calc(100% + 12px);
-}
-.wireframingButtonsLargeDefault10 > :global(.__wab_flex-container) > *,
-.wireframingButtonsLargeDefault10
-  > :global(.__wab_flex-container)
-  > :global(.__wab_slot)
-  > *,
-.wireframingButtonsLargeDefault10
-  > :global(.__wab_flex-container)
-  > picture
-  > img,
-.wireframingButtonsLargeDefault10
-  > :global(.__wab_flex-container)
-  > :global(.__wab_slot)
-  > picture
-  > img {
-  margin-left: 12px;
-}
-.text___13Cvs {
-  display: block;
-  font-size: 18px;
-  text-align: center;
-  font-family: "Sofia Pro";
-  font-weight: 400;
-  letter-spacing: 0em;
-  line-height: 20px;
-  color: rgba(255, 255, 255, 1);
-  position: relative;
-}
-.freeBox___3OqrZ {
-  display: block;
-  position: relative;
-  width: 16px;
-  height: 14px;
-  flex-shrink: 0;
-}
-.img__zeR {
-  position: absolute;
-  object-fit: cover;
-  max-width: 100%;
-  transform: scale(1.000000499999875, 0.999999500000375)
-    rotate(-179.94270423958343deg) skew(0.05729570311883569deg, 0deg);
-  width: 18px;
-  height: 16px;
-  display: block !important;
-  transform-origin: top left;
-  left: 16px;
-  top: 14px;
-}
-.img__zeR > picture > img {
-  object-fit: cover;
-}
-.img__zeR > :global(.__wab_img-spacer) > img {
-  object-fit: cover;
 }
 .latestBobaBlogs {
   position: absolute;
@@ -3417,18 +3088,10 @@
   top: 355px;
   left: 159px;
 }
-.text__uUjrP {
-  display: block;
-  font-size: 18px;
-  font-family: "Sofia Pro";
-  font-weight: 400;
-  letter-spacing: 0em;
-  line-height: 20px;
-  color: rgba(255, 255, 255, 1);
+.readmore:global(.__wab_instance) {
   position: absolute;
   top: 0%;
   left: 0%;
-  width: 82.92%;
 }
 .img__wboIg {
   position: absolute;
@@ -3545,18 +3208,10 @@
   top: 355px;
   left: 159px;
 }
-.text__wk2Zc {
-  display: block;
-  font-size: 18px;
-  font-family: "Sofia Pro";
-  font-weight: 400;
-  letter-spacing: 0em;
-  line-height: 20px;
-  color: rgba(255, 255, 255, 1);
+.read2:global(.__wab_instance) {
   position: absolute;
   top: 0%;
   left: 0%;
-  width: 82.92%;
 }
 .img__nZRwD {
   position: absolute;
@@ -3673,18 +3328,10 @@
   top: 355px;
   left: 159px;
 }
-.text__c11Pv {
-  display: block;
-  font-size: 18px;
-  font-family: "Sofia Pro";
-  font-weight: 400;
-  letter-spacing: 0em;
-  line-height: 20px;
-  color: rgba(255, 255, 255, 1);
+.read3:global(.__wab_instance) {
   position: absolute;
   top: 0%;
   left: 0%;
-  width: 82.92%;
 }
 .img__okcC5 {
   position: absolute;
@@ -3991,20 +3638,12 @@
   position: absolute;
   top: 9px;
   left: 0px;
+  overflow: hidden;
 }
-.text__yNyUw {
-  display: block;
-  font-size: 18px;
-  font-family: "Sofia Pro";
-  font-weight: 400;
-  letter-spacing: 0em;
-  line-height: 20px;
-  color: rgba(255, 255, 255, 1);
+.whattoken:global(.__wab_instance) {
   position: absolute;
   top: 292px;
   left: 282px;
-  width: 172px;
-  transform: translate(0px, 0.40699999999969805px);
 }
 .img__cRxsR {
   position: absolute;
@@ -4225,6 +3864,7 @@
   position: absolute;
   top: 9px;
   left: 0px;
+  overflow: hidden;
 }
 .cta2 {
   flex-direction: row;
@@ -4323,19 +3963,10 @@
   width: 286px;
   transform: translate(0px, 0.4899999999997817px);
 }
-.text__tGm3R {
-  display: block;
-  font-size: 18px;
-  font-family: "Sofia Pro";
-  font-weight: 400;
-  letter-spacing: 0em;
-  line-height: 20px;
-  color: rgba(255, 255, 255, 1);
+.what2:global(.__wab_instance) {
   position: absolute;
   top: 292px;
   left: 246px;
-  width: 190px;
-  transform: translate(0px, 0.4899999999997817px);
 }
 .torus2 {
   background: url("./images/torus1.jpeg") center center / cover no-repeat;
@@ -4588,7 +4219,9 @@
   letter-spacing: 0em;
   line-height: 24px;
   color: rgba(216, 216, 216, 1);
-  position: relative;
+  position: absolute;
+  left: 103px;
+  top: 221.54345703125px;
 }
 .wireframingButtonsLargeDefault12 {
   flex-direction: row;
@@ -4707,11 +4340,11 @@
   background: url("./images/mail1.png") center center / cover no-repeat;
   transform: translate(0.08500000000003638px, -0.1859999999996944px);
   width: 262px;
-  height: 298px;
+  height: 399px;
   display: block;
   position: absolute;
-  top: 23px;
-  left: 114px;
+  top: 6px;
+  left: 115px;
   padding-bottom: 0px;
 }
 .darkTorus2 {
@@ -4773,79 +4406,33 @@
   top: 0px;
   left: 0px;
 }
-.svg__tjdIp {
+.dkicon:global(.__wab_instance) {
   position: absolute;
-  object-fit: cover;
-  max-width: 100%;
-  color: #fff;
-  opacity: 0.4;
-  width: 24px;
-  height: 13.63px;
-  display: block;
   top: 182px;
   left: 1532px;
 }
-.svg__zPXtx {
+.youicon:global(.__wab_instance) {
   position: absolute;
-  object-fit: cover;
-  max-width: 100%;
-  color: #fff;
-  width: 24px;
-  height: 18.177px;
-  display: block;
   top: 180px;
   left: 1596px;
 }
-.img__m7Wzg {
+.giticon:global(.__wab_instance) {
   position: absolute;
-  object-fit: cover;
-  max-width: 100%;
-  opacity: 0.4;
-  width: 27px;
-  height: 26px;
-  display: block !important;
   top: 33.77%;
   left: 76.87%;
 }
-.img__m7Wzg > picture > img {
-  object-fit: cover;
-}
-.img__m7Wzg > :global(.__wab_img-spacer) > img {
-  object-fit: cover;
-}
-.svg___1Nvu3 {
+.telicon:global(.__wab_instance) {
   position: absolute;
-  object-fit: cover;
-  max-width: 100%;
-  color: #fff;
-  opacity: 0.4;
-  width: 24px;
-  height: 22px;
-  display: block;
   top: 33.96%;
   left: 73.95%;
 }
-.svg___5OTe {
+.discon:global(.__wab_instance) {
   position: absolute;
-  object-fit: cover;
-  max-width: 100%;
-  color: #fff;
-  opacity: 0.4;
-  width: 24px;
-  height: 19px;
-  display: block;
   top: 23.09%;
   left: 79.79%;
 }
-.svg__mmUmo {
+.twicon:global(.__wab_instance) {
   position: absolute;
-  object-fit: cover;
-  max-width: 100%;
-  color: #fff;
-  opacity: 0.4;
-  width: 24px;
-  height: 22px;
-  display: block;
   top: 22.9%;
   left: 73.95%;
 }
@@ -5158,15 +4745,8 @@
   top: 23.85%;
   left: 38.95%;
 }
-.svg__jcRjY {
+.bobaicon:global(.__wab_instance) {
   position: absolute;
-  object-fit: cover;
-  max-width: 100%;
-  color: #fff;
-  opacity: 0.4;
-  width: 21.561px;
-  height: 35.31px;
-  display: block;
   top: 113px;
   left: 1477px;
 }
@@ -5183,7 +4763,7 @@
 }
 .bobaWebsiteNavigation {
   width: 1920px;
-  height: 114px;
+  height: 112px;
   display: block;
   position: absolute;
   left: 9px;
@@ -5201,7 +4781,7 @@
 }
 .group1 {
   width: 971px;
-  height: 42px;
+  height: 40px;
   display: block;
   position: absolute;
   top: 36px;
@@ -5224,15 +4804,7 @@
   top: 12px;
   left: 224px;
 }
-.link___5Nkrj {
-  display: block;
-  font-size: 18px;
-  text-align: center;
-  font-family: "Sofia Pro";
-  font-weight: 400;
-  letter-spacing: 0em;
-  line-height: 100%;
-  color: rgba(255, 255, 255, 1);
+.disnav:global(.__wab_instance) {
   position: absolute;
   top: 0%;
   left: 0%;
@@ -5241,7 +4813,7 @@
   position: absolute;
   object-fit: cover;
   max-width: 100%;
-  color: #fff;
+  color: #ffffff;
   transform: translate(-0.07699999999999818px, 0.3430000000000035px);
   width: 9px;
   height: 6px;
@@ -5249,15 +4821,7 @@
   top: 33.33%;
   left: 90.37%;
 }
-.link___4BkQm {
-  display: block;
-  font-size: 18px;
-  text-align: center;
-  font-family: "Sofia Pro";
-  font-weight: 400;
-  letter-spacing: 0em;
-  line-height: 100%;
-  color: rgba(255, 255, 255, 1);
+.dapnav:global(.__wab_instance) {
   position: absolute;
   top: 28.58%;
   left: 52.75%;
@@ -5270,15 +4834,7 @@
   top: 12px;
   left: 363px;
 }
-.link__utXkq {
-  display: block;
-  font-size: 18px;
-  text-align: center;
-  font-family: "Sofia Pro";
-  font-weight: 400;
-  letter-spacing: 0em;
-  line-height: 100%;
-  color: rgba(255, 255, 255, 1);
+.edunav:global(.__wab_instance) {
   position: absolute;
   top: 0%;
   left: 0%;
@@ -5294,28 +4850,12 @@
   top: 33.33%;
   left: 91.29%;
 }
-.link___6MMr {
-  display: block;
-  font-size: 18px;
-  text-align: center;
-  font-family: "Sofia Pro";
-  font-weight: 400;
-  letter-spacing: 0em;
-  line-height: 100%;
-  color: rgba(255, 255, 255, 1);
+.comnav:global(.__wab_instance) {
   position: absolute;
   top: 28.58%;
   left: 78.51%;
 }
-.link___4Aa0E {
-  display: block;
-  font-size: 18px;
-  text-align: center;
-  font-family: "Sofia Pro";
-  font-weight: 400;
-  letter-spacing: 0em;
-  line-height: 100%;
-  color: rgba(255, 255, 255, 1);
+.devnav:global(.__wab_instance) {
   position: absolute;
   top: 28.58%;
   left: 63.57%;
@@ -5340,15 +4880,7 @@
   top: 33.33%;
   left: 86.14%;
 }
-.link___1U9Dm {
-  display: block;
-  font-size: 18px;
-  text-align: center;
-  font-family: "Sofia Pro";
-  font-weight: 400;
-  letter-spacing: 0em;
-  line-height: 100%;
-  color: rgba(255, 255, 255, 1);
+.mornav:global(.__wab_instance) {
   position: absolute;
   top: 0%;
   left: 0%;
@@ -5483,13 +5015,7 @@
   left: 19.23%;
   display: flex;
 }
-.svg___9KgaZ {
-  object-fit: cover;
-  max-width: 100%;
-  color: #bdbdbd;
-  width: 32px;
-  height: 24px;
-  display: block;
+.gamnav:global(.__wab_instance) {
   flex-shrink: 0;
 }
 .button__eepgu:global(.__wab_instance) {

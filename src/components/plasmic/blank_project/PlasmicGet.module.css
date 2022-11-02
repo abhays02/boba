@@ -1,0 +1,22 @@
+.root {
+  display: block;
+  font-size: 18px;
+  text-align: center;
+  font-family: "Sofia Pro";
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 20px;
+  color: rgba(255, 255, 255, 1);
+  background: #000000;
+  height: 62px;
+  width: 201px;
+  padding-top: 20px;
+  isolation: auto;
+  filter: blur(0px);
+  backdrop-filter: blur(0px);
+  position: relative;
+  -webkit-backdrop-filter: blur(0px);
+}
+.root:hover {
+  color: #c9ff00;
+}

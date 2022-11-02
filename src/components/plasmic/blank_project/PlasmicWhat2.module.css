@@ -1,0 +1,15 @@
+.root {
+  display: block;
+  font-size: 18px;
+  font-family: "Sofia Pro";
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 20px;
+  color: rgba(255, 255, 255, 1);
+  width: 190px;
+  transform: translate(0px, 0.4899999999997817px);
+  position: relative;
+}
+.root:hover {
+  color: var(--token-XB6KjTHe4);
+}

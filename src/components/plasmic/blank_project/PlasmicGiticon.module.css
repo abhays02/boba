@@ -1,0 +1,18 @@
+.root {
+  object-fit: cover;
+  max-width: 100%;
+  opacity: 1;
+  width: 27px;
+  height: 26px;
+  display: block !important;
+  position: relative;
+}
+.root > picture > img {
+  object-fit: cover;
+}
+.root > :global(.__wab_img-spacer) > img {
+  object-fit: cover;
+}
+.root:hover {
+  opacity: 0.4;
+}

@@ -31,7 +31,35 @@ import {
   deriveRenderOpts,
   ensureGlobalVariants
 } from "@plasmicapp/react-web";
+import Ourmultichain from "../../Ourmultichain"; // plasmic-import: D9ifA0SeNT/component
 import Button from "../../Button"; // plasmic-import: mX_KddqaVHE/component
+import Get from "../../Get"; // plasmic-import: r6NUWKzw9O/component
+import Buil from "../../Buil"; // plasmic-import: CZS5K_VsD9/component
+import Explore from "../../Explore"; // plasmic-import: SnDGHUcps8/component
+import Gaming from "../../Gaming"; // plasmic-import: iCrz-rL7WT/component
+import Documentation from "../../Documentation"; // plasmic-import: AG3PbycRE-/component
+import Showmultichain from "../../Showmultichain"; // plasmic-import: oKJDDWWInS/component
+import Partner from "../../Partner"; // plasmic-import: GQ-eLSG5wU/component
+import Bobaedu from "../../Bobaedu"; // plasmic-import: GMq1kqYdfA/component
+import Readmore from "../../Readmore"; // plasmic-import: h3jlN3DP8M/component
+import Read2 from "../../Read2"; // plasmic-import: RLq9-98SiQ/component
+import Read3 from "../../Read3"; // plasmic-import: 1zaekVdaGd/component
+import Whattoken from "../../Whattoken"; // plasmic-import: OM98w0nlmw/component
+import What2 from "../../What2"; // plasmic-import: bEw8_Js6cQ/component
+import Dkicon from "../../Dkicon"; // plasmic-import: Ut1D1rxZSt/component
+import Youicon from "../../Youicon"; // plasmic-import: ZVVeXXYLXc/component
+import Giticon from "../../Giticon"; // plasmic-import: 7L1iefD1JK/component
+import Telicon from "../../Telicon"; // plasmic-import: HfRk4Osuyd/component
+import Discon from "../../Discon"; // plasmic-import: 64uJSaLjRe/component
+import Twicon from "../../Twicon"; // plasmic-import: cQ9uZKVS15/component
+import Bobaicon from "../../Bobaicon"; // plasmic-import: 8enjjafPVd/component
+import Disnav from "../../Disnav"; // plasmic-import: b79Twn08M2/component
+import Dapnav from "../../Dapnav"; // plasmic-import: Uagda_k6SH/component
+import Edunav from "../../Edunav"; // plasmic-import: 2xMBuAvNit/component
+import Comnav from "../../Comnav"; // plasmic-import: 95bAS0CFTk/component
+import Devnav from "../../Devnav"; // plasmic-import: EsBBbu3Phf/component
+import Mornav from "../../Mornav"; // plasmic-import: FaDzIxYVJl/component
+import Gamnav from "../../Gamnav"; // plasmic-import: jZGcplvKdQ/component
 
 import "@plasmicapp/react-web/lib/plasmic.css";
 
@@ -51,21 +79,12 @@ import WallettwoIcon from "./icons/PlasmicIcon__Wallettwo"; // plasmic-import: O
 import VectorStrokesvgIcon from "./icons/PlasmicIcon__VectorStrokesvg"; // plasmic-import: BAi1E7uR98/icon
 import VectorStroke16Icon from "./icons/PlasmicIcon__VectorStroke16"; // plasmic-import: YZgtIUC9zzk/icon
 import Group1SvgIcon from "./icons/PlasmicIcon__Group1Svg"; // plasmic-import: y0OJ8WOpA6/icon
-import GroupsvgIcon from "./icons/PlasmicIcon__Groupsvg"; // plasmic-import: RKRCCKAmyu/icon
-import Group8637SvgIcon from "./icons/PlasmicIcon__Group8637Svg"; // plasmic-import: rw7Hbtzr6m/icon
-import Vector3Svg2Icon from "./icons/PlasmicIcon__Vector3Svg2"; // plasmic-import: 86sb2j-E8_/icon
-import Vector1968Icon from "./icons/PlasmicIcon__Vector1968"; // plasmic-import: 89A0uX5P1/icon
-import Vector1SvgIcon from "./icons/PlasmicIcon__Vector1Svg"; // plasmic-import: 3jP2N6sa9b/icon
-import Group8638SvgIcon from "./icons/PlasmicIcon__Group8638Svg"; // plasmic-import: cCFXqCAXNz/icon
 import Vector8Icon from "./icons/PlasmicIcon__Vector8"; // plasmic-import: pNBD5qshYHo/icon
 import Vector1955Icon from "./icons/PlasmicIcon__Vector1955"; // plasmic-import: D_SJ8yNLESq/icon
-import VectorsvgIcon from "./icons/PlasmicIcon__Vectorsvg"; // plasmic-import: k3RE5uMRxS/icon
 import uploadOne4UqZzTdBv from "./images/uploadOne.svg"; // plasmic-import: 4uqZZTdBv/picture
 import sixPointsMej7GoPiOb from "./images/sixPoints.svg"; // plasmic-import: MEJ7GoPIOb/picture
 import vectorStroke2Uz50QGe1ZZ from "./images/vectorStroke2.svg"; // plasmic-import: uz50QGe1zZ/picture
 import tool2Ehui9Ifqf from "./images/tool2.svg"; // plasmic-import: ehui9IFQF_/picture
-import vector3FJ3TuTJsfV from "./images/vector3.svg"; // plasmic-import: fJ3tuTJsfV/picture
-import vector4JIhUvPhlLd from "./images/vector4.svg"; // plasmic-import: jIhUvPhlLD/picture
 import groupWbgkxfTi9U from "./images/group.svg"; // plasmic-import: WbgkxfTi9u/picture
 import group2YdXeDi0Equ from "./images/group2.svg"; // plasmic-import: YDXeDI0Equ/picture
 import vectorStroke3S6PnMqs7Oz from "./images/vectorStroke3.svg"; // plasmic-import: s6pnMqs7oz/picture
@@ -82,11 +101,9 @@ import sixPoints2XuljmOErRpj from "./images/sixPoints2.svg"; // plasmic-import: 
 import upload2M63GhB0IBa from "./images/upload2.svg"; // plasmic-import: m63ghB0IBa-/picture
 import updateRotationByemhaP6Zac from "./images/updateRotation.svg"; // plasmic-import: byemhaP6Zac/picture
 import uploadOne2StttOqPc0Es from "./images/uploadOne2.svg"; // plasmic-import: stttOqPc0ES/picture
-import vector5N5NvL3PBrIp from "./images/vector5.svg"; // plasmic-import: N5NvL3pBRIp/picture
 import torusGradient6YOodelGadYc from "./images/torusGradient6.svg"; // plasmic-import: yOODELGadYC/picture
 import sphere6FZ6SGpI4U from "./images/sphere6.svg"; // plasmic-import: f_Z6sGpI4u-/picture
 import sphere7GtjcZ9CcPT from "./images/sphere7.svg"; // plasmic-import: GtjcZ9Cc_pT/picture
-import vector6I3SmtlabdJq from "./images/vector6.svg"; // plasmic-import: I3SMTLABDJq/picture
 import arrow2Vcx7ExT12C5 from "./images/arrow2.svg"; // plasmic-import: VCX7exT12c5/picture
 import arrow3LuJyiuKb4BR from "./images/arrow3.svg"; // plasmic-import: LUJyiuKB4bR/picture
 import arrow4Ck9JYzIFg5J from "./images/arrow4.svg"; // plasmic-import: CK9jYzIFg5j/picture
@@ -96,7 +113,6 @@ import ellipse186I2BJy1UaHy from "./images/ellipse18.svg"; // plasmic-import: 6i
 import torus8Mnvo864WpAu from "./images/torus8.svg"; // plasmic-import: MNVO864wpAu/picture
 import ellipse19N0M37FTj4S from "./images/ellipse19.svg"; // plasmic-import: n0M_37fTj4s/picture
 import group5A1T6TkW84P from "./images/group5.svg"; // plasmic-import: a1T6TK_W84p/picture
-import vector2SvgFrW2ZtSW from "./images/vector2Svg.svg"; // plasmic-import: FrW2ztS-W/picture
 
 export type PlasmicNewPage__VariantMembers = {};
 export type PlasmicNewPage__VariantsArgs = {};
@@ -130,19 +146,19 @@ export type PlasmicNewPage__OverridesType = {
   torus1?: p.Flex<"div">;
   wireframingButtonsLargeDefault?: p.Flex<"div">;
   buttonDefault?: p.Flex<"div">;
-  wireframingButtonsLargeDefault2?: p.Flex<"div">;
+  ourmultichain?: p.Flex<typeof Ourmultichain>;
   hero?: p.Flex<"div">;
   rectangle2284?: p.Flex<"div">;
+  exploreDapps?: p.Flex<"div">;
+  get?: p.Flex<typeof Get>;
   launchApp?: p.Flex<"button">;
   launchApp2?: p.Flex<"div">;
-  exploreDapps?: p.Flex<"div">;
-  exploreDapps2?: p.Flex<"button">;
-  wireframingButtonsLargeDefault3?: p.Flex<"div">;
+  buil?: p.Flex<typeof Buil>;
   group?: p.Flex<"div">;
   group2?: p.Flex<"div">;
   rectangle2287?: p.Flex<"div">;
   getStarted?: p.Flex<"div">;
-  getStarted2?: p.Flex<"div">;
+  explore?: p.Flex<typeof Explore>;
   nextGenWeb3ScalingSolution?: p.Flex<"div">;
   introducingBoba?: p.Flex<"div">;
   bobaIsTheUniversalScalingSolutionForAllBlockchainsDeployedOnCryptosBiggestProtocolsSuchAsEthereumAvalancheAndBinanceBobaDeliversAFasterCheaperAndSmarterExperienceForBlockchainsNextBillionUsers?: p.Flex<"div">;
@@ -195,6 +211,7 @@ export type PlasmicNewPage__OverridesType = {
   evolveYourGamingExperience?: p.Flex<"div">;
   wireframingButtonsLargeDefault4?: p.Flex<"div">;
   wireframingButtonsLargeDefault5?: p.Flex<"div">;
+  gaming?: p.Flex<typeof Gaming>;
   textContainer?: p.Flex<"div">;
   textContainer2?: p.Flex<"div">;
   theFutureHasArrivedLetsDiscoverItTogether?: p.Flex<"div">;
@@ -245,12 +262,12 @@ export type PlasmicNewPage__OverridesType = {
   logoWillComeHere11?: p.Flex<"div">;
   logoWillComeHere12?: p.Flex<"div">;
   wireframingButtonsLargeDefault6?: p.Flex<"a">;
-  buttonDefault2?: p.Flex<"a">;
-  wireframingButtonsLargeDefault7?: p.Flex<"div">;
+  documentation?: p.Flex<typeof Documentation>;
+  showmultichain?: p.Flex<typeof Showmultichain>;
   wireframingButtonsLargeDefault8?: p.Flex<"div">;
   buttonDefault3?: p.Flex<"div">;
   wireframingButtonsLargeDefault9?: p.Flex<"div">;
-  buttonDefault4?: p.Flex<"div">;
+  partner?: p.Flex<typeof Partner>;
   investors3?: p.Flex<"div">;
   partners?: p.Flex<"div">;
   rectangle2314?: p.Flex<"div">;
@@ -260,7 +277,7 @@ export type PlasmicNewPage__OverridesType = {
   darkCircle1?: p.Flex<"div">;
   darkTorus1?: p.Flex<"div">;
   group8641?: p.Flex<"div">;
-  wireframingButtonsLargeDefault10?: p.Flex<"div">;
+  bobaedu?: p.Flex<typeof Bobaedu>;
   latestBobaBlogs?: p.Flex<"div">;
   wireframingButtonsLargeDefault11?: p.Flex<"div">;
   buttonDefault5?: p.Flex<"div">;
@@ -270,18 +287,21 @@ export type PlasmicNewPage__OverridesType = {
   rectangle8?: p.Flex<"div">;
   loremIpsumIsDummyTextOfThePrintingAndTypesetting?: p.Flex<"div">;
   ctaText?: p.Flex<"div">;
+  readmore?: p.Flex<typeof Readmore>;
   card2?: p.Flex<"div">;
   rectangle7?: p.Flex<"div">;
   image2?: p.Flex<"div">;
   rectangle9?: p.Flex<"div">;
   loremIpsumIsDummyTextOfThePrintingAndTypesetting2?: p.Flex<"div">;
   ctaText2?: p.Flex<"div">;
+  read2?: p.Flex<typeof Read2>;
   card3?: p.Flex<"div">;
   rectangle10?: p.Flex<"div">;
   image3?: p.Flex<"div">;
   rectangle11?: p.Flex<"div">;
   loremIpsumIsDummyTextOfThePrintingAndTypesetting3?: p.Flex<"div">;
   ctaText3?: p.Flex<"div">;
+  read3?: p.Flex<typeof Read3>;
   card4?: p.Flex<"div">;
   rectangle12?: p.Flex<"div">;
   image4?: p.Flex<"div">;
@@ -297,11 +317,13 @@ export type PlasmicNewPage__OverridesType = {
   group8574?: p.Flex<"div">;
   rectangle2269?: p.Flex<"div">;
   maskGroup?: p.Flex<"div">;
+  whattoken?: p.Flex<typeof Whattoken>;
   cta?: p.Flex<"div">;
   group8612?: p.Flex<"div">;
   rectangle2270?: p.Flex<"div">;
   maskGroup2?: p.Flex<"div">;
   cta2?: p.Flex<"div">;
+  what2?: p.Flex<typeof What2>;
   torus2?: p.Flex<"div">;
   coin2?: p.Flex<"div">;
   coin3?: p.Flex<"div">;
@@ -323,20 +345,34 @@ export type PlasmicNewPage__OverridesType = {
   footerBg?: p.Flex<"div">;
   bobaLogo?: p.Flex<"div">;
   group5?: p.Flex<"div">;
+  dkicon?: p.Flex<typeof Dkicon>;
+  youicon?: p.Flex<typeof Youicon>;
+  giticon?: p.Flex<typeof Giticon>;
+  telicon?: p.Flex<typeof Telicon>;
+  discon?: p.Flex<typeof Discon>;
+  twicon?: p.Flex<typeof Twicon>;
   community?: p.Flex<"div">;
+  bobaicon?: p.Flex<typeof Bobaicon>;
   bobaWebsiteNavigation?: p.Flex<"div">;
   rectangle3?: p.Flex<"div">;
   group1?: p.Flex<"div">;
   d0444D452E6Ecebc11?: p.Flex<"div">;
   group8616?: p.Flex<"div">;
+  disnav?: p.Flex<typeof Disnav>;
+  dapnav?: p.Flex<typeof Dapnav>;
   group8647?: p.Flex<"div">;
+  edunav?: p.Flex<typeof Edunav>;
+  comnav?: p.Flex<typeof Comnav>;
+  devnav?: p.Flex<typeof Devnav>;
   group8617?: p.Flex<"div">;
+  mornav?: p.Flex<typeof Mornav>;
   wireframingButtonsMedium?: p.Flex<"div">;
   buttonDefault7?: p.Flex<"div">;
   walletApp?: p.Flex<"div">;
   rectangle2?: p.Flex<"div">;
   bobaGamingButton?: p.Flex<"div">;
   rectangle2316?: p.Flex<"div">;
+  gamnav?: p.Flex<typeof Gamnav>;
 };
 
 export interface DefaultNewPageProps {
@@ -359,6 +395,8 @@ function PlasmicNewPage__RenderFunc(props: {
     ...args,
     ...variants
   };
+
+  const currentUser = p.useCurrentUser?.() || {};
 
   return (
     <React.Fragment>
@@ -702,48 +740,11 @@ function PlasmicNewPage__RenderFunc(props: {
               </p.Stack>
             ) : null}
 
-            <p.Stack
-              as={"div"}
-              data-plasmic-name={"wireframingButtonsLargeDefault2"}
-              data-plasmic-override={overrides.wireframingButtonsLargeDefault2}
-              hasGap={true}
-              className={classNames(
-                projectcss.all,
-                sty.wireframingButtonsLargeDefault2
-              )}
-            >
-              <a
-                className={classNames(
-                  projectcss.all,
-                  projectcss.a,
-                  projectcss.__wab_text,
-                  sty.link__vobH4
-                )}
-                href={"#" as const}
-              >
-                {"Our multichain integrations"}
-              </a>
-
-              <div className={classNames(projectcss.all, sty.freeBox__iSmX0)}>
-                <p.PlasmicImg
-                  alt={""}
-                  className={classNames(sty.img__qoNn)}
-                  displayHeight={"16px" as const}
-                  displayMaxHeight={"none" as const}
-                  displayMaxWidth={"100%" as const}
-                  displayMinHeight={"0" as const}
-                  displayMinWidth={"0" as const}
-                  displayWidth={"18px" as const}
-                  loading={"lazy" as const}
-                  src={{
-                    src: vector3FJ3TuTJsfV,
-                    fullWidth: 18,
-                    fullHeight: 16,
-                    aspectRatio: 1.125
-                  }}
-                />
-              </div>
-            </p.Stack>
+            <Ourmultichain
+              data-plasmic-name={"ourmultichain"}
+              data-plasmic-override={overrides.ourmultichain}
+              className={classNames("__wab_instance", sty.ourmultichain)}
+            />
 
             <div
               data-plasmic-name={"hero"}
@@ -780,6 +781,21 @@ function PlasmicNewPage__RenderFunc(props: {
                     </div>
                   </Button>
                 ) : null}
+
+                <p.Stack
+                  as={"div"}
+                  data-plasmic-name={"exploreDapps"}
+                  data-plasmic-override={overrides.exploreDapps}
+                  hasGap={true}
+                  className={classNames(projectcss.all, sty.exploreDapps)}
+                >
+                  <Get
+                    data-plasmic-name={"get"}
+                    data-plasmic-override={overrides.get}
+                    className={classNames("__wab_instance", sty.get)}
+                  />
+                </p.Stack>
+
                 {true ? (
                   <p.Stack
                     as={"button"}
@@ -809,82 +825,14 @@ function PlasmicNewPage__RenderFunc(props: {
                     ) : null}
                   </p.Stack>
                 ) : null}
-
-                <p.Stack
-                  as={"div"}
-                  data-plasmic-name={"exploreDapps"}
-                  data-plasmic-override={overrides.exploreDapps}
-                  hasGap={true}
-                  className={classNames(projectcss.all, sty.exploreDapps)}
-                >
-                  <button
-                    data-plasmic-name={"exploreDapps2"}
-                    data-plasmic-override={overrides.exploreDapps2}
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.button,
-                      projectcss.__wab_text,
-                      sty.exploreDapps2,
-                      "get" as const
-                    )}
-                    onClick={"#" as const}
-                    title={"" as const}
-                  >
-                    {"Get Started"}
-                  </button>
-                </p.Stack>
               </div>
 
               {true ? (
-                <p.Stack
-                  as={"div"}
-                  data-plasmic-name={"wireframingButtonsLargeDefault3"}
-                  data-plasmic-override={
-                    overrides.wireframingButtonsLargeDefault3
-                  }
-                  hasGap={true}
-                  className={classNames(
-                    projectcss.all,
-                    sty.wireframingButtonsLargeDefault3
-                  )}
-                >
-                  {true ? (
-                    <a
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.a,
-                        projectcss.__wab_text,
-                        sty.link__uWzd3
-                      )}
-                      href={"#" as const}
-                    >
-                      {"Build on Boba"}
-                    </a>
-                  ) : null}
-                  {true ? (
-                    <div
-                      className={classNames(projectcss.all, sty.freeBox__jbpc6)}
-                    >
-                      <p.PlasmicImg
-                        alt={""}
-                        className={classNames(sty.img__jaHdT)}
-                        displayHeight={"16px" as const}
-                        displayMaxHeight={"none" as const}
-                        displayMaxWidth={"100%" as const}
-                        displayMinHeight={"0" as const}
-                        displayMinWidth={"0" as const}
-                        displayWidth={"18px" as const}
-                        loading={"lazy" as const}
-                        src={{
-                          src: vector4JIhUvPhlLd,
-                          fullWidth: 18,
-                          fullHeight: 16,
-                          aspectRatio: 1.125
-                        }}
-                      />
-                    </div>
-                  ) : null}
-                </p.Stack>
+                <Buil
+                  data-plasmic-name={"buil"}
+                  data-plasmic-override={overrides.buil}
+                  className={classNames("__wab_instance", sty.buil)}
+                />
               ) : null}
 
               <div
@@ -900,7 +848,7 @@ function PlasmicNewPage__RenderFunc(props: {
                   <p.PlasmicImg
                     alt={""}
                     className={classNames(sty.img__ncQYd)}
-                    displayHeight={"706.331px" as const}
+                    displayHeight={"616px" as const}
                     displayMaxHeight={"none" as const}
                     displayMaxWidth={"100%" as const}
                     displayMinHeight={"0" as const}
@@ -938,17 +886,11 @@ function PlasmicNewPage__RenderFunc(props: {
                   hasGap={true}
                   className={classNames(projectcss.all, sty.getStarted)}
                 >
-                  <div
-                    data-plasmic-name={"getStarted2"}
-                    data-plasmic-override={overrides.getStarted2}
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.getStarted2
-                    )}
-                  >
-                    {"Explore dApps"}
-                  </div>
+                  <Explore
+                    data-plasmic-name={"explore"}
+                    data-plasmic-override={overrides.explore}
+                    className={classNames("__wab_instance", sty.explore)}
+                  />
                 </p.Stack>
               ) : null}
               {true ? (
@@ -1146,7 +1088,7 @@ function PlasmicNewPage__RenderFunc(props: {
                       <p.PlasmicImg
                         alt={""}
                         className={classNames(sty.img__u6SGd)}
-                        displayHeight={"706.331px" as const}
+                        displayHeight={"474px" as const}
                         displayMaxHeight={"none" as const}
                         displayMaxWidth={"100%" as const}
                         displayMinHeight={"0" as const}
@@ -1774,15 +1716,11 @@ function PlasmicNewPage__RenderFunc(props: {
                     sty.wireframingButtonsLargeDefault5
                   )}
                 >
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text___0Kzvz
-                    )}
-                  >
-                    {"Add your gaming project"}
-                  </div>
+                  <Gaming
+                    data-plasmic-name={"gaming"}
+                    data-plasmic-override={overrides.gaming}
+                    className={classNames("__wab_instance", sty.gaming)}
+                  />
                 </p.Stack>
               </div>
             </div>
@@ -2502,61 +2440,18 @@ function PlasmicNewPage__RenderFunc(props: {
                 sty.wireframingButtonsLargeDefault6
               )}
             >
-              <a
-                data-plasmic-name={"buttonDefault2"}
-                data-plasmic-override={overrides.buttonDefault2}
-                className={classNames(
-                  projectcss.all,
-                  projectcss.a,
-                  projectcss.__wab_text,
-                  sty.buttonDefault2
-                )}
-                href={"#" as const}
-              >
-                {"Documentation"}
-              </a>
+              <Documentation
+                data-plasmic-name={"documentation"}
+                data-plasmic-override={overrides.documentation}
+                className={classNames("__wab_instance", sty.documentation)}
+              />
             </p.Stack>
 
-            <p.Stack
-              as={"div"}
-              data-plasmic-name={"wireframingButtonsLargeDefault7"}
-              data-plasmic-override={overrides.wireframingButtonsLargeDefault7}
-              hasGap={true}
-              className={classNames(
-                projectcss.all,
-                sty.wireframingButtonsLargeDefault7
-              )}
-            >
-              <div
-                className={classNames(
-                  projectcss.all,
-                  projectcss.__wab_text,
-                  sty.text___8CbL
-                )}
-              >
-                {"Show multichain partners"}
-              </div>
-
-              <div className={classNames(projectcss.all, sty.freeBox__kuo6Y)}>
-                <p.PlasmicImg
-                  alt={""}
-                  className={classNames(sty.img__y68Zf)}
-                  displayHeight={"16px" as const}
-                  displayMaxHeight={"none" as const}
-                  displayMaxWidth={"100%" as const}
-                  displayMinHeight={"0" as const}
-                  displayMinWidth={"0" as const}
-                  displayWidth={"18px" as const}
-                  loading={"lazy" as const}
-                  src={{
-                    src: vector5N5NvL3PBrIp,
-                    fullWidth: 18,
-                    fullHeight: 16,
-                    aspectRatio: 1.125
-                  }}
-                />
-              </div>
-            </p.Stack>
+            <Showmultichain
+              data-plasmic-name={"showmultichain"}
+              data-plasmic-override={overrides.showmultichain}
+              className={classNames("__wab_instance", sty.showmultichain)}
+            />
 
             {true ? (
               <p.Stack
@@ -2595,17 +2490,11 @@ function PlasmicNewPage__RenderFunc(props: {
                 sty.wireframingButtonsLargeDefault9
               )}
             >
-              <div
-                data-plasmic-name={"buttonDefault4"}
-                data-plasmic-override={overrides.buttonDefault4}
-                className={classNames(
-                  projectcss.all,
-                  projectcss.__wab_text,
-                  sty.buttonDefault4
-                )}
-              >
-                {"Partner with Boba"}
-              </div>
+              <Partner
+                data-plasmic-name={"partner"}
+                data-plasmic-override={overrides.partner}
+                className={classNames("__wab_instance", sty.partner)}
+              />
             </p.Stack>
 
             <div
@@ -2735,50 +2624,11 @@ function PlasmicNewPage__RenderFunc(props: {
               data-plasmic-override={overrides.group8641}
               className={classNames(projectcss.all, sty.group8641)}
             >
-              <p.Stack
-                as={"div"}
-                data-plasmic-name={"wireframingButtonsLargeDefault10"}
-                data-plasmic-override={
-                  overrides.wireframingButtonsLargeDefault10
-                }
-                hasGap={true}
-                className={classNames(
-                  projectcss.all,
-                  sty.wireframingButtonsLargeDefault10
-                )}
-              >
-                <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text___13Cvs
-                  )}
-                >
-                  {"Boba Education"}
-                </div>
-
-                <div
-                  className={classNames(projectcss.all, sty.freeBox___3OqrZ)}
-                >
-                  <p.PlasmicImg
-                    alt={""}
-                    className={classNames(sty.img__zeR)}
-                    displayHeight={"16px" as const}
-                    displayMaxHeight={"none" as const}
-                    displayMaxWidth={"100%" as const}
-                    displayMinHeight={"0" as const}
-                    displayMinWidth={"0" as const}
-                    displayWidth={"18px" as const}
-                    loading={"lazy" as const}
-                    src={{
-                      src: vector6I3SmtlabdJq,
-                      fullWidth: 18,
-                      fullHeight: 16,
-                      aspectRatio: 1.125
-                    }}
-                  />
-                </div>
-              </p.Stack>
+              <Bobaedu
+                data-plasmic-name={"bobaedu"}
+                data-plasmic-override={overrides.bobaedu}
+                className={classNames("__wab_instance", sty.bobaedu)}
+              />
 
               <div
                 data-plasmic-name={"latestBobaBlogs"}
@@ -2884,15 +2734,11 @@ function PlasmicNewPage__RenderFunc(props: {
                   data-plasmic-override={overrides.ctaText}
                   className={classNames(projectcss.all, sty.ctaText)}
                 >
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__uUjrP
-                    )}
-                  >
-                    {"Read More"}
-                  </div>
+                  <Readmore
+                    data-plasmic-name={"readmore"}
+                    data-plasmic-override={overrides.readmore}
+                    className={classNames("__wab_instance", sty.readmore)}
+                  />
 
                   <p.PlasmicImg
                     alt={""}
@@ -2975,15 +2821,11 @@ function PlasmicNewPage__RenderFunc(props: {
                   data-plasmic-override={overrides.ctaText2}
                   className={classNames(projectcss.all, sty.ctaText2)}
                 >
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__wk2Zc
-                    )}
-                  >
-                    {"Read More"}
-                  </div>
+                  <Read2
+                    data-plasmic-name={"read2"}
+                    data-plasmic-override={overrides.read2}
+                    className={classNames("__wab_instance", sty.read2)}
+                  />
 
                   <p.PlasmicImg
                     alt={""}
@@ -3066,15 +2908,11 @@ function PlasmicNewPage__RenderFunc(props: {
                   data-plasmic-override={overrides.ctaText3}
                   className={classNames(projectcss.all, sty.ctaText3)}
                 >
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__c11Pv
-                    )}
-                  >
-                    {"Read More"}
-                  </div>
+                  <Read3
+                    data-plasmic-name={"read3"}
+                    data-plasmic-override={overrides.read3}
+                    className={classNames("__wab_instance", sty.read3)}
+                  />
 
                   <p.PlasmicImg
                     alt={""}
@@ -3300,15 +3138,11 @@ function PlasmicNewPage__RenderFunc(props: {
                 data-plasmic-override={overrides.maskGroup}
                 className={classNames(projectcss.all, sty.maskGroup)}
               >
-                <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text__yNyUw
-                  )}
-                >
-                  {"What is a token?"}
-                </div>
+                <Whattoken
+                  data-plasmic-name={"whattoken"}
+                  data-plasmic-override={overrides.whattoken}
+                  className={classNames("__wab_instance", sty.whattoken)}
+                />
 
                 <p.PlasmicImg
                   alt={""}
@@ -3526,15 +3360,11 @@ function PlasmicNewPage__RenderFunc(props: {
                   }
                 </div>
 
-                <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text__tGm3R
-                  )}
-                >
-                  {"What are tokenomics?"}
-                </div>
+                <What2
+                  data-plasmic-name={"what2"}
+                  data-plasmic-override={overrides.what2}
+                  className={classNames("__wab_instance", sty.what2)}
+                />
 
                 {false ? (
                   <div
@@ -3711,17 +3541,17 @@ function PlasmicNewPage__RenderFunc(props: {
                     projectcss.all,
                     sty.wireframingButtonsLargeDefault13
                   )}
+                />
+
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text___2Kuhc
+                  )}
                 >
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text___2Kuhc
-                    )}
-                  >
-                    {"Your Email here"}
-                  </div>
-                </p.Stack>
+                  {"Your Email here"}
+                </div>
               </div>
 
               {true ? (
@@ -3839,47 +3669,40 @@ function PlasmicNewPage__RenderFunc(props: {
                 />
               </div>
 
-              <GroupsvgIcon
-                className={classNames(projectcss.all, sty.svg__tjdIp)}
-                role={"img"}
+              <Dkicon
+                data-plasmic-name={"dkicon"}
+                data-plasmic-override={overrides.dkicon}
+                className={classNames("__wab_instance", sty.dkicon)}
               />
 
-              <Group8637SvgIcon
-                className={classNames(projectcss.all, sty.svg__zPXtx)}
-                role={"img"}
+              <Youicon
+                data-plasmic-name={"youicon"}
+                data-plasmic-override={overrides.youicon}
+                className={classNames("__wab_instance", sty.youicon)}
               />
 
-              <p.PlasmicImg
-                alt={""}
-                className={classNames(sty.img__m7Wzg)}
-                displayHeight={"26px" as const}
-                displayMaxHeight={"none" as const}
-                displayMaxWidth={"100%" as const}
-                displayMinHeight={"0" as const}
-                displayMinWidth={"0" as const}
-                displayWidth={"27px" as const}
-                loading={"lazy" as const}
-                src={{
-                  src: vector2SvgFrW2ZtSW,
-                  fullWidth: 156,
-                  fullHeight: 150,
-                  aspectRatio: 1.038462
-                }}
+              <Giticon
+                data-plasmic-name={"giticon"}
+                data-plasmic-override={overrides.giticon}
+                className={classNames("__wab_instance", sty.giticon)}
               />
 
-              <Vector3Svg2Icon
-                className={classNames(projectcss.all, sty.svg___1Nvu3)}
-                role={"img"}
+              <Telicon
+                data-plasmic-name={"telicon"}
+                data-plasmic-override={overrides.telicon}
+                className={classNames("__wab_instance", sty.telicon)}
               />
 
-              <Vector1968Icon
-                className={classNames(projectcss.all, sty.svg___5OTe)}
-                role={"img"}
+              <Discon
+                data-plasmic-name={"discon"}
+                data-plasmic-override={overrides.discon}
+                className={classNames("__wab_instance", sty.discon)}
               />
 
-              <Vector1SvgIcon
-                className={classNames(projectcss.all, sty.svg__mmUmo)}
-                role={"img"}
+              <Twicon
+                data-plasmic-name={"twicon"}
+                data-plasmic-override={overrides.twicon}
+                className={classNames("__wab_instance", sty.twicon)}
               />
 
               <div
@@ -4124,9 +3947,10 @@ function PlasmicNewPage__RenderFunc(props: {
                 {"About"}
               </div>
 
-              <Group8638SvgIcon
-                className={classNames(projectcss.all, sty.svg__jcRjY)}
-                role={"img"}
+              <Bobaicon
+                data-plasmic-name={"bobaicon"}
+                data-plasmic-override={overrides.bobaicon}
+                className={classNames("__wab_instance", sty.bobaicon)}
               />
 
               {false ? (
@@ -4166,18 +3990,11 @@ function PlasmicNewPage__RenderFunc(props: {
                   data-plasmic-override={overrides.group8616}
                   className={classNames(projectcss.all, sty.group8616)}
                 >
-                  <a
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.a,
-                      projectcss.__wab_text,
-                      sty.link___5Nkrj
-                    )}
-                    href={"#" as const}
-                    target={"_blank" as const}
-                  >
-                    {"Discover"}
-                  </a>
+                  <Disnav
+                    data-plasmic-name={"disnav"}
+                    data-plasmic-override={overrides.disnav}
+                    className={classNames("__wab_instance", sty.disnav)}
+                  />
 
                   <Vector1955Icon
                     className={classNames(projectcss.all, sty.svg__rg83L)}
@@ -4185,34 +4002,22 @@ function PlasmicNewPage__RenderFunc(props: {
                   />
                 </div>
 
-                <a
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.a,
-                    projectcss.__wab_text,
-                    sty.link___4BkQm
-                  )}
-                  href={"#" as const}
-                >
-                  {"dApps"}
-                </a>
+                <Dapnav
+                  data-plasmic-name={"dapnav"}
+                  data-plasmic-override={overrides.dapnav}
+                  className={classNames("__wab_instance", sty.dapnav)}
+                />
 
                 <div
                   data-plasmic-name={"group8647"}
                   data-plasmic-override={overrides.group8647}
                   className={classNames(projectcss.all, sty.group8647)}
                 >
-                  <a
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.a,
-                      projectcss.__wab_text,
-                      sty.link__utXkq
-                    )}
-                    href={"#" as const}
-                  >
-                    {"Education"}
-                  </a>
+                  <Edunav
+                    data-plasmic-name={"edunav"}
+                    data-plasmic-override={overrides.edunav}
+                    className={classNames("__wab_instance", sty.edunav)}
+                  />
 
                   <Vector1955Icon
                     className={classNames(projectcss.all, sty.svg__x8KmM)}
@@ -4220,29 +4025,17 @@ function PlasmicNewPage__RenderFunc(props: {
                   />
                 </div>
 
-                <a
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.a,
-                    projectcss.__wab_text,
-                    sty.link___6MMr
-                  )}
-                  href={"#" as const}
-                >
-                  {"Community"}
-                </a>
+                <Comnav
+                  data-plasmic-name={"comnav"}
+                  data-plasmic-override={overrides.comnav}
+                  className={classNames("__wab_instance", sty.comnav)}
+                />
 
-                <a
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.a,
-                    projectcss.__wab_text,
-                    sty.link___4Aa0E
-                  )}
-                  href={"#" as const}
-                >
-                  {"Developers"}
-                </a>
+                <Devnav
+                  data-plasmic-name={"devnav"}
+                  data-plasmic-override={overrides.devnav}
+                  className={classNames("__wab_instance", sty.devnav)}
+                />
 
                 <div
                   data-plasmic-name={"group8617"}
@@ -4254,17 +4047,11 @@ function PlasmicNewPage__RenderFunc(props: {
                     role={"img"}
                   />
 
-                  <a
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.a,
-                      projectcss.__wab_text,
-                      sty.link___1U9Dm
-                    )}
-                    href={"#" as const}
-                  >
-                    {"More"}
-                  </a>
+                  <Mornav
+                    data-plasmic-name={"mornav"}
+                    data-plasmic-override={overrides.mornav}
+                    className={classNames("__wab_instance", sty.mornav)}
+                  />
                 </div>
               </div>
 
@@ -4360,10 +4147,10 @@ function PlasmicNewPage__RenderFunc(props: {
                   href={"#" as const}
                   target={"_blank" as const}
                 >
-                  <VectorsvgIcon
-                    className={classNames(projectcss.all, sty.svg___9KgaZ)}
-                    onClick={"" as const}
-                    role={"img"}
+                  <Gamnav
+                    data-plasmic-name={"gamnav"}
+                    data-plasmic-override={overrides.gamnav}
+                    className={classNames("__wab_instance", sty.gamnav)}
                   />
                 </a>
               </div>
@@ -4452,19 +4239,19 @@ const PlasmicDescendants = {
     "torus1",
     "wireframingButtonsLargeDefault",
     "buttonDefault",
-    "wireframingButtonsLargeDefault2",
+    "ourmultichain",
     "hero",
     "rectangle2284",
+    "exploreDapps",
+    "get",
     "launchApp",
     "launchApp2",
-    "exploreDapps",
-    "exploreDapps2",
-    "wireframingButtonsLargeDefault3",
+    "buil",
     "group",
     "group2",
     "rectangle2287",
     "getStarted",
-    "getStarted2",
+    "explore",
     "nextGenWeb3ScalingSolution",
     "introducingBoba",
     "bobaIsTheUniversalScalingSolutionForAllBlockchainsDeployedOnCryptosBiggestProtocolsSuchAsEthereumAvalancheAndBinanceBobaDeliversAFasterCheaperAndSmarterExperienceForBlockchainsNextBillionUsers",
@@ -4517,6 +4304,7 @@ const PlasmicDescendants = {
     "evolveYourGamingExperience",
     "wireframingButtonsLargeDefault4",
     "wireframingButtonsLargeDefault5",
+    "gaming",
     "textContainer",
     "textContainer2",
     "theFutureHasArrivedLetsDiscoverItTogether",
@@ -4567,12 +4355,12 @@ const PlasmicDescendants = {
     "logoWillComeHere11",
     "logoWillComeHere12",
     "wireframingButtonsLargeDefault6",
-    "buttonDefault2",
-    "wireframingButtonsLargeDefault7",
+    "documentation",
+    "showmultichain",
     "wireframingButtonsLargeDefault8",
     "buttonDefault3",
     "wireframingButtonsLargeDefault9",
-    "buttonDefault4",
+    "partner",
     "investors3",
     "partners",
     "rectangle2314",
@@ -4582,7 +4370,7 @@ const PlasmicDescendants = {
     "darkCircle1",
     "darkTorus1",
     "group8641",
-    "wireframingButtonsLargeDefault10",
+    "bobaedu",
     "latestBobaBlogs",
     "wireframingButtonsLargeDefault11",
     "buttonDefault5",
@@ -4592,18 +4380,21 @@ const PlasmicDescendants = {
     "rectangle8",
     "loremIpsumIsDummyTextOfThePrintingAndTypesetting",
     "ctaText",
+    "readmore",
     "card2",
     "rectangle7",
     "image2",
     "rectangle9",
     "loremIpsumIsDummyTextOfThePrintingAndTypesetting2",
     "ctaText2",
+    "read2",
     "card3",
     "rectangle10",
     "image3",
     "rectangle11",
     "loremIpsumIsDummyTextOfThePrintingAndTypesetting3",
     "ctaText3",
+    "read3",
     "card4",
     "rectangle12",
     "image4",
@@ -4619,11 +4410,13 @@ const PlasmicDescendants = {
     "group8574",
     "rectangle2269",
     "maskGroup",
+    "whattoken",
     "cta",
     "group8612",
     "rectangle2270",
     "maskGroup2",
     "cta2",
+    "what2",
     "torus2",
     "coin2",
     "coin3",
@@ -4645,20 +4438,34 @@ const PlasmicDescendants = {
     "footerBg",
     "bobaLogo",
     "group5",
+    "dkicon",
+    "youicon",
+    "giticon",
+    "telicon",
+    "discon",
+    "twicon",
     "community",
+    "bobaicon",
     "bobaWebsiteNavigation",
     "rectangle3",
     "group1",
     "d0444D452E6Ecebc11",
     "group8616",
+    "disnav",
+    "dapnav",
     "group8647",
+    "edunav",
+    "comnav",
+    "devnav",
     "group8617",
+    "mornav",
     "wireframingButtonsMedium",
     "buttonDefault7",
     "walletApp",
     "rectangle2",
     "bobaGamingButton",
-    "rectangle2316"
+    "rectangle2316",
+    "gamnav"
   ],
   homepageV4: [
     "homepageV4",
@@ -4682,19 +4489,19 @@ const PlasmicDescendants = {
     "torus1",
     "wireframingButtonsLargeDefault",
     "buttonDefault",
-    "wireframingButtonsLargeDefault2",
+    "ourmultichain",
     "hero",
     "rectangle2284",
+    "exploreDapps",
+    "get",
     "launchApp",
     "launchApp2",
-    "exploreDapps",
-    "exploreDapps2",
-    "wireframingButtonsLargeDefault3",
+    "buil",
     "group",
     "group2",
     "rectangle2287",
     "getStarted",
-    "getStarted2",
+    "explore",
     "nextGenWeb3ScalingSolution",
     "introducingBoba",
     "bobaIsTheUniversalScalingSolutionForAllBlockchainsDeployedOnCryptosBiggestProtocolsSuchAsEthereumAvalancheAndBinanceBobaDeliversAFasterCheaperAndSmarterExperienceForBlockchainsNextBillionUsers",
@@ -4747,6 +4554,7 @@ const PlasmicDescendants = {
     "evolveYourGamingExperience",
     "wireframingButtonsLargeDefault4",
     "wireframingButtonsLargeDefault5",
+    "gaming",
     "textContainer",
     "textContainer2",
     "theFutureHasArrivedLetsDiscoverItTogether",
@@ -4797,12 +4605,12 @@ const PlasmicDescendants = {
     "logoWillComeHere11",
     "logoWillComeHere12",
     "wireframingButtonsLargeDefault6",
-    "buttonDefault2",
-    "wireframingButtonsLargeDefault7",
+    "documentation",
+    "showmultichain",
     "wireframingButtonsLargeDefault8",
     "buttonDefault3",
     "wireframingButtonsLargeDefault9",
-    "buttonDefault4",
+    "partner",
     "investors3",
     "partners",
     "rectangle2314",
@@ -4812,7 +4620,7 @@ const PlasmicDescendants = {
     "darkCircle1",
     "darkTorus1",
     "group8641",
-    "wireframingButtonsLargeDefault10",
+    "bobaedu",
     "latestBobaBlogs",
     "wireframingButtonsLargeDefault11",
     "buttonDefault5",
@@ -4822,18 +4630,21 @@ const PlasmicDescendants = {
     "rectangle8",
     "loremIpsumIsDummyTextOfThePrintingAndTypesetting",
     "ctaText",
+    "readmore",
     "card2",
     "rectangle7",
     "image2",
     "rectangle9",
     "loremIpsumIsDummyTextOfThePrintingAndTypesetting2",
     "ctaText2",
+    "read2",
     "card3",
     "rectangle10",
     "image3",
     "rectangle11",
     "loremIpsumIsDummyTextOfThePrintingAndTypesetting3",
     "ctaText3",
+    "read3",
     "card4",
     "rectangle12",
     "image4",
@@ -4849,11 +4660,13 @@ const PlasmicDescendants = {
     "group8574",
     "rectangle2269",
     "maskGroup",
+    "whattoken",
     "cta",
     "group8612",
     "rectangle2270",
     "maskGroup2",
     "cta2",
+    "what2",
     "torus2",
     "coin2",
     "coin3",
@@ -4875,20 +4688,34 @@ const PlasmicDescendants = {
     "footerBg",
     "bobaLogo",
     "group5",
+    "dkicon",
+    "youicon",
+    "giticon",
+    "telicon",
+    "discon",
+    "twicon",
     "community",
+    "bobaicon",
     "bobaWebsiteNavigation",
     "rectangle3",
     "group1",
     "d0444D452E6Ecebc11",
     "group8616",
+    "disnav",
+    "dapnav",
     "group8647",
+    "edunav",
+    "comnav",
+    "devnav",
     "group8617",
+    "mornav",
     "wireframingButtonsMedium",
     "buttonDefault7",
     "walletApp",
     "rectangle2",
     "bobaGamingButton",
-    "rectangle2316"
+    "rectangle2316",
+    "gamnav"
   ],
   group8630: ["group8630", "rectangle2296", "group8570", "hybridCompute"],
   rectangle2296: ["rectangle2296"],
@@ -4924,41 +4751,41 @@ const PlasmicDescendants = {
     "buttonDefault"
   ],
   buttonDefault: ["buttonDefault"],
-  wireframingButtonsLargeDefault2: ["wireframingButtonsLargeDefault2"],
+  ourmultichain: ["ourmultichain"],
   hero: [
     "hero",
     "rectangle2284",
+    "exploreDapps",
+    "get",
     "launchApp",
     "launchApp2",
-    "exploreDapps",
-    "exploreDapps2",
-    "wireframingButtonsLargeDefault3",
+    "buil",
     "group",
     "group2",
     "rectangle2287",
     "getStarted",
-    "getStarted2",
+    "explore",
     "nextGenWeb3ScalingSolution",
     "introducingBoba",
     "bobaIsTheUniversalScalingSolutionForAllBlockchainsDeployedOnCryptosBiggestProtocolsSuchAsEthereumAvalancheAndBinanceBobaDeliversAFasterCheaperAndSmarterExperienceForBlockchainsNextBillionUsers"
   ],
   rectangle2284: [
     "rectangle2284",
-    "launchApp",
-    "launchApp2",
     "exploreDapps",
-    "exploreDapps2"
+    "get",
+    "launchApp",
+    "launchApp2"
   ],
+  exploreDapps: ["exploreDapps", "get"],
+  get: ["get"],
   launchApp: ["launchApp", "launchApp2"],
   launchApp2: ["launchApp2"],
-  exploreDapps: ["exploreDapps", "exploreDapps2"],
-  exploreDapps2: ["exploreDapps2"],
-  wireframingButtonsLargeDefault3: ["wireframingButtonsLargeDefault3"],
+  buil: ["buil"],
   group: ["group", "group2", "rectangle2287"],
   group2: ["group2", "rectangle2287"],
   rectangle2287: ["rectangle2287"],
-  getStarted: ["getStarted", "getStarted2"],
-  getStarted2: ["getStarted2"],
+  getStarted: ["getStarted", "explore"],
+  explore: ["explore"],
   nextGenWeb3ScalingSolution: ["nextGenWeb3ScalingSolution"],
   introducingBoba: ["introducingBoba"],
   bobaIsTheUniversalScalingSolutionForAllBlockchainsDeployedOnCryptosBiggestProtocolsSuchAsEthereumAvalancheAndBinanceBobaDeliversAFasterCheaperAndSmarterExperienceForBlockchainsNextBillionUsers:
@@ -5019,7 +4846,8 @@ const PlasmicDescendants = {
     "discoverOurStateOfTheArtBobaGamingHubWhereWeCreatedAFrictionlessWeb3GamingExperienceForYouEnjoyAWideVarietyOfGamesAndGamifiedActivitiesFromLargeGamesBobaExclusivesEarningLoyaltyPointsOrSmallArcadeGames",
     "evolveYourGamingExperience",
     "wireframingButtonsLargeDefault4",
-    "wireframingButtonsLargeDefault5"
+    "wireframingButtonsLargeDefault5",
+    "gaming"
   ],
   group8577: [
     "group8577",
@@ -5066,7 +4894,8 @@ const PlasmicDescendants = {
     "discoverOurStateOfTheArtBobaGamingHubWhereWeCreatedAFrictionlessWeb3GamingExperienceForYouEnjoyAWideVarietyOfGamesAndGamifiedActivitiesFromLargeGamesBobaExclusivesEarningLoyaltyPointsOrSmallArcadeGames",
     "evolveYourGamingExperience",
     "wireframingButtonsLargeDefault4",
-    "wireframingButtonsLargeDefault5"
+    "wireframingButtonsLargeDefault5",
+    "gaming"
   ],
   group8640: ["group8640", "rectangle2283", "group3", "group4"],
   rectangle2283: ["rectangle2283"],
@@ -5173,7 +5002,11 @@ const PlasmicDescendants = {
     ],
   evolveYourGamingExperience: ["evolveYourGamingExperience"],
   wireframingButtonsLargeDefault4: ["wireframingButtonsLargeDefault4"],
-  wireframingButtonsLargeDefault5: ["wireframingButtonsLargeDefault5"],
+  wireframingButtonsLargeDefault5: [
+    "wireframingButtonsLargeDefault5",
+    "gaming"
+  ],
+  gaming: ["gaming"],
   textContainer: ["textContainer", "textContainer2"],
   textContainer2: ["textContainer2"],
   theFutureHasArrivedLetsDiscoverItTogether: [
@@ -5258,10 +5091,10 @@ const PlasmicDescendants = {
   logoWillComeHere12: ["logoWillComeHere12"],
   wireframingButtonsLargeDefault6: [
     "wireframingButtonsLargeDefault6",
-    "buttonDefault2"
+    "documentation"
   ],
-  buttonDefault2: ["buttonDefault2"],
-  wireframingButtonsLargeDefault7: ["wireframingButtonsLargeDefault7"],
+  documentation: ["documentation"],
+  showmultichain: ["showmultichain"],
   wireframingButtonsLargeDefault8: [
     "wireframingButtonsLargeDefault8",
     "buttonDefault3"
@@ -5269,9 +5102,9 @@ const PlasmicDescendants = {
   buttonDefault3: ["buttonDefault3"],
   wireframingButtonsLargeDefault9: [
     "wireframingButtonsLargeDefault9",
-    "buttonDefault4"
+    "partner"
   ],
-  buttonDefault4: ["buttonDefault4"],
+  partner: ["partner"],
   investors3: ["investors3"],
   partners: ["partners"],
   rectangle2314: ["rectangle2314"],
@@ -5282,7 +5115,7 @@ const PlasmicDescendants = {
   darkTorus1: ["darkTorus1"],
   group8641: [
     "group8641",
-    "wireframingButtonsLargeDefault10",
+    "bobaedu",
     "latestBobaBlogs",
     "wireframingButtonsLargeDefault11",
     "buttonDefault5",
@@ -5292,18 +5125,21 @@ const PlasmicDescendants = {
     "rectangle8",
     "loremIpsumIsDummyTextOfThePrintingAndTypesetting",
     "ctaText",
+    "readmore",
     "card2",
     "rectangle7",
     "image2",
     "rectangle9",
     "loremIpsumIsDummyTextOfThePrintingAndTypesetting2",
     "ctaText2",
+    "read2",
     "card3",
     "rectangle10",
     "image3",
     "rectangle11",
     "loremIpsumIsDummyTextOfThePrintingAndTypesetting3",
     "ctaText3",
+    "read3",
     "card4",
     "rectangle12",
     "image4",
@@ -5315,7 +5151,7 @@ const PlasmicDescendants = {
     "_175",
     "_176"
   ],
-  wireframingButtonsLargeDefault10: ["wireframingButtonsLargeDefault10"],
+  bobaedu: ["bobaedu"],
   latestBobaBlogs: ["latestBobaBlogs"],
   wireframingButtonsLargeDefault11: [
     "wireframingButtonsLargeDefault11",
@@ -5328,7 +5164,8 @@ const PlasmicDescendants = {
     "image",
     "rectangle8",
     "loremIpsumIsDummyTextOfThePrintingAndTypesetting",
-    "ctaText"
+    "ctaText",
+    "readmore"
   ],
   rectangle6: ["rectangle6"],
   image: ["image", "rectangle8"],
@@ -5336,14 +5173,16 @@ const PlasmicDescendants = {
   loremIpsumIsDummyTextOfThePrintingAndTypesetting: [
     "loremIpsumIsDummyTextOfThePrintingAndTypesetting"
   ],
-  ctaText: ["ctaText"],
+  ctaText: ["ctaText", "readmore"],
+  readmore: ["readmore"],
   card2: [
     "card2",
     "rectangle7",
     "image2",
     "rectangle9",
     "loremIpsumIsDummyTextOfThePrintingAndTypesetting2",
-    "ctaText2"
+    "ctaText2",
+    "read2"
   ],
   rectangle7: ["rectangle7"],
   image2: ["image2", "rectangle9"],
@@ -5351,14 +5190,16 @@ const PlasmicDescendants = {
   loremIpsumIsDummyTextOfThePrintingAndTypesetting2: [
     "loremIpsumIsDummyTextOfThePrintingAndTypesetting2"
   ],
-  ctaText2: ["ctaText2"],
+  ctaText2: ["ctaText2", "read2"],
+  read2: ["read2"],
   card3: [
     "card3",
     "rectangle10",
     "image3",
     "rectangle11",
     "loremIpsumIsDummyTextOfThePrintingAndTypesetting3",
-    "ctaText3"
+    "ctaText3",
+    "read3"
   ],
   rectangle10: ["rectangle10"],
   image3: ["image3", "rectangle11"],
@@ -5366,7 +5207,8 @@ const PlasmicDescendants = {
   loremIpsumIsDummyTextOfThePrintingAndTypesetting3: [
     "loremIpsumIsDummyTextOfThePrintingAndTypesetting3"
   ],
-  ctaText3: ["ctaText3"],
+  ctaText3: ["ctaText3", "read3"],
+  read3: ["read3"],
   card4: [
     "card4",
     "rectangle12",
@@ -5391,14 +5233,23 @@ const PlasmicDescendants = {
       "theBobaFoundationLaunchedItsNativeTokenBobaDesignedToEnhanceBobasAdvancedScalingInfrastructureAndCreateATrueDecentralizedExperienceForItsUsers"
     ],
   aNewDigitalEconomy: ["aNewDigitalEconomy"],
-  group8574: ["group8574", "rectangle2269", "maskGroup", "cta"],
+  group8574: ["group8574", "rectangle2269", "maskGroup", "whattoken", "cta"],
   rectangle2269: ["rectangle2269"],
-  maskGroup: ["maskGroup", "cta"],
+  maskGroup: ["maskGroup", "whattoken", "cta"],
+  whattoken: ["whattoken"],
   cta: ["cta"],
-  group8612: ["group8612", "rectangle2270", "maskGroup2", "cta2", "torus2"],
+  group8612: [
+    "group8612",
+    "rectangle2270",
+    "maskGroup2",
+    "cta2",
+    "what2",
+    "torus2"
+  ],
   rectangle2270: ["rectangle2270"],
-  maskGroup2: ["maskGroup2", "cta2", "torus2"],
+  maskGroup2: ["maskGroup2", "cta2", "what2", "torus2"],
   cta2: ["cta2"],
+  what2: ["what2"],
   torus2: ["torus2"],
   coin2: ["coin2"],
   coin3: ["coin3"],
@@ -5436,45 +5287,79 @@ const PlasmicDescendants = {
     "footerBg",
     "bobaLogo",
     "group5",
-    "community"
+    "dkicon",
+    "youicon",
+    "giticon",
+    "telicon",
+    "discon",
+    "twicon",
+    "community",
+    "bobaicon"
   ],
   footerBg: ["footerBg"],
   bobaLogo: ["bobaLogo"],
   group5: ["group5"],
+  dkicon: ["dkicon"],
+  youicon: ["youicon"],
+  giticon: ["giticon"],
+  telicon: ["telicon"],
+  discon: ["discon"],
+  twicon: ["twicon"],
   community: ["community"],
+  bobaicon: ["bobaicon"],
   bobaWebsiteNavigation: [
     "bobaWebsiteNavigation",
     "rectangle3",
     "group1",
     "d0444D452E6Ecebc11",
     "group8616",
+    "disnav",
+    "dapnav",
     "group8647",
+    "edunav",
+    "comnav",
+    "devnav",
     "group8617",
+    "mornav",
     "wireframingButtonsMedium",
     "buttonDefault7",
     "walletApp",
     "rectangle2",
     "bobaGamingButton",
-    "rectangle2316"
+    "rectangle2316",
+    "gamnav"
   ],
   rectangle3: ["rectangle3"],
   group1: [
     "group1",
     "d0444D452E6Ecebc11",
     "group8616",
+    "disnav",
+    "dapnav",
     "group8647",
-    "group8617"
+    "edunav",
+    "comnav",
+    "devnav",
+    "group8617",
+    "mornav"
   ],
   d0444D452E6Ecebc11: ["d0444D452E6Ecebc11"],
-  group8616: ["group8616"],
-  group8647: ["group8647"],
-  group8617: ["group8617"],
+  group8616: ["group8616", "disnav"],
+  disnav: ["disnav"],
+  dapnav: ["dapnav"],
+  group8647: ["group8647", "edunav"],
+  edunav: ["edunav"],
+  comnav: ["comnav"],
+  devnav: ["devnav"],
+  group8617: ["group8617", "mornav"],
+  mornav: ["mornav"],
   wireframingButtonsMedium: ["wireframingButtonsMedium", "buttonDefault7"],
   buttonDefault7: ["buttonDefault7"],
   walletApp: ["walletApp", "rectangle2"],
   rectangle2: ["rectangle2"],
-  bobaGamingButton: ["bobaGamingButton", "rectangle2316"],
-  rectangle2316: ["rectangle2316"]
+  bobaGamingButton: ["bobaGamingButton", "rectangle2316", "gamnav"],
+  rectangle2316: ["rectangle2316"],
+  gamnav: ["gamnav"]
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
 type DescendantsType<T extends NodeNameType> =
@@ -5502,19 +5387,19 @@ type NodeDefaultElementType = {
   torus1: "div";
   wireframingButtonsLargeDefault: "div";
   buttonDefault: "div";
-  wireframingButtonsLargeDefault2: "div";
+  ourmultichain: typeof Ourmultichain;
   hero: "div";
   rectangle2284: "div";
+  exploreDapps: "div";
+  get: typeof Get;
   launchApp: "button";
   launchApp2: "div";
-  exploreDapps: "div";
-  exploreDapps2: "button";
-  wireframingButtonsLargeDefault3: "div";
+  buil: typeof Buil;
   group: "div";
   group2: "div";
   rectangle2287: "div";
   getStarted: "div";
-  getStarted2: "div";
+  explore: typeof Explore;
   nextGenWeb3ScalingSolution: "div";
   introducingBoba: "div";
   bobaIsTheUniversalScalingSolutionForAllBlockchainsDeployedOnCryptosBiggestProtocolsSuchAsEthereumAvalancheAndBinanceBobaDeliversAFasterCheaperAndSmarterExperienceForBlockchainsNextBillionUsers: "div";
@@ -5567,6 +5452,7 @@ type NodeDefaultElementType = {
   evolveYourGamingExperience: "div";
   wireframingButtonsLargeDefault4: "div";
   wireframingButtonsLargeDefault5: "div";
+  gaming: typeof Gaming;
   textContainer: "div";
   textContainer2: "div";
   theFutureHasArrivedLetsDiscoverItTogether: "div";
@@ -5617,12 +5503,12 @@ type NodeDefaultElementType = {
   logoWillComeHere11: "div";
   logoWillComeHere12: "div";
   wireframingButtonsLargeDefault6: "a";
-  buttonDefault2: "a";
-  wireframingButtonsLargeDefault7: "div";
+  documentation: typeof Documentation;
+  showmultichain: typeof Showmultichain;
   wireframingButtonsLargeDefault8: "div";
   buttonDefault3: "div";
   wireframingButtonsLargeDefault9: "div";
-  buttonDefault4: "div";
+  partner: typeof Partner;
   investors3: "div";
   partners: "div";
   rectangle2314: "div";
@@ -5632,7 +5518,7 @@ type NodeDefaultElementType = {
   darkCircle1: "div";
   darkTorus1: "div";
   group8641: "div";
-  wireframingButtonsLargeDefault10: "div";
+  bobaedu: typeof Bobaedu;
   latestBobaBlogs: "div";
   wireframingButtonsLargeDefault11: "div";
   buttonDefault5: "div";
@@ -5642,18 +5528,21 @@ type NodeDefaultElementType = {
   rectangle8: "div";
   loremIpsumIsDummyTextOfThePrintingAndTypesetting: "div";
   ctaText: "div";
+  readmore: typeof Readmore;
   card2: "div";
   rectangle7: "div";
   image2: "div";
   rectangle9: "div";
   loremIpsumIsDummyTextOfThePrintingAndTypesetting2: "div";
   ctaText2: "div";
+  read2: typeof Read2;
   card3: "div";
   rectangle10: "div";
   image3: "div";
   rectangle11: "div";
   loremIpsumIsDummyTextOfThePrintingAndTypesetting3: "div";
   ctaText3: "div";
+  read3: typeof Read3;
   card4: "div";
   rectangle12: "div";
   image4: "div";
@@ -5669,11 +5558,13 @@ type NodeDefaultElementType = {
   group8574: "div";
   rectangle2269: "div";
   maskGroup: "div";
+  whattoken: typeof Whattoken;
   cta: "div";
   group8612: "div";
   rectangle2270: "div";
   maskGroup2: "div";
   cta2: "div";
+  what2: typeof What2;
   torus2: "div";
   coin2: "div";
   coin3: "div";
@@ -5695,20 +5586,34 @@ type NodeDefaultElementType = {
   footerBg: "div";
   bobaLogo: "div";
   group5: "div";
+  dkicon: typeof Dkicon;
+  youicon: typeof Youicon;
+  giticon: typeof Giticon;
+  telicon: typeof Telicon;
+  discon: typeof Discon;
+  twicon: typeof Twicon;
   community: "div";
+  bobaicon: typeof Bobaicon;
   bobaWebsiteNavigation: "div";
   rectangle3: "div";
   group1: "div";
   d0444D452E6Ecebc11: "div";
   group8616: "div";
+  disnav: typeof Disnav;
+  dapnav: typeof Dapnav;
   group8647: "div";
+  edunav: typeof Edunav;
+  comnav: typeof Comnav;
+  devnav: typeof Devnav;
   group8617: "div";
+  mornav: typeof Mornav;
   wireframingButtonsMedium: "div";
   buttonDefault7: "div";
   walletApp: "div";
   rectangle2: "div";
   bobaGamingButton: "div";
   rectangle2316: "div";
+  gamnav: typeof Gamnav;
 };
 
 type ReservedPropsType = "variants" | "args" | "overrides";
@@ -5795,23 +5700,19 @@ export const PlasmicNewPage = Object.assign(
       "wireframingButtonsLargeDefault"
     ),
     buttonDefault: makeNodeComponent("buttonDefault"),
-    wireframingButtonsLargeDefault2: makeNodeComponent(
-      "wireframingButtonsLargeDefault2"
-    ),
+    ourmultichain: makeNodeComponent("ourmultichain"),
     hero: makeNodeComponent("hero"),
     rectangle2284: makeNodeComponent("rectangle2284"),
+    exploreDapps: makeNodeComponent("exploreDapps"),
+    get: makeNodeComponent("get"),
     launchApp: makeNodeComponent("launchApp"),
     launchApp2: makeNodeComponent("launchApp2"),
-    exploreDapps: makeNodeComponent("exploreDapps"),
-    exploreDapps2: makeNodeComponent("exploreDapps2"),
-    wireframingButtonsLargeDefault3: makeNodeComponent(
-      "wireframingButtonsLargeDefault3"
-    ),
+    buil: makeNodeComponent("buil"),
     group: makeNodeComponent("group"),
     group2: makeNodeComponent("group2"),
     rectangle2287: makeNodeComponent("rectangle2287"),
     getStarted: makeNodeComponent("getStarted"),
-    getStarted2: makeNodeComponent("getStarted2"),
+    explore: makeNodeComponent("explore"),
     nextGenWeb3ScalingSolution: makeNodeComponent("nextGenWeb3ScalingSolution"),
     introducingBoba: makeNodeComponent("introducingBoba"),
     bobaIsTheUniversalScalingSolutionForAllBlockchainsDeployedOnCryptosBiggestProtocolsSuchAsEthereumAvalancheAndBinanceBobaDeliversAFasterCheaperAndSmarterExperienceForBlockchainsNextBillionUsers:
@@ -5885,6 +5786,7 @@ export const PlasmicNewPage = Object.assign(
     wireframingButtonsLargeDefault5: makeNodeComponent(
       "wireframingButtonsLargeDefault5"
     ),
+    gaming: makeNodeComponent("gaming"),
     textContainer: makeNodeComponent("textContainer"),
     textContainer2: makeNodeComponent("textContainer2"),
     theFutureHasArrivedLetsDiscoverItTogether: makeNodeComponent(
@@ -5942,10 +5844,8 @@ export const PlasmicNewPage = Object.assign(
     wireframingButtonsLargeDefault6: makeNodeComponent(
       "wireframingButtonsLargeDefault6"
     ),
-    buttonDefault2: makeNodeComponent("buttonDefault2"),
-    wireframingButtonsLargeDefault7: makeNodeComponent(
-      "wireframingButtonsLargeDefault7"
-    ),
+    documentation: makeNodeComponent("documentation"),
+    showmultichain: makeNodeComponent("showmultichain"),
     wireframingButtonsLargeDefault8: makeNodeComponent(
       "wireframingButtonsLargeDefault8"
     ),
@@ -5953,7 +5853,7 @@ export const PlasmicNewPage = Object.assign(
     wireframingButtonsLargeDefault9: makeNodeComponent(
       "wireframingButtonsLargeDefault9"
     ),
-    buttonDefault4: makeNodeComponent("buttonDefault4"),
+    partner: makeNodeComponent("partner"),
     investors3: makeNodeComponent("investors3"),
     partners: makeNodeComponent("partners"),
     rectangle2314: makeNodeComponent("rectangle2314"),
@@ -5963,9 +5863,7 @@ export const PlasmicNewPage = Object.assign(
     darkCircle1: makeNodeComponent("darkCircle1"),
     darkTorus1: makeNodeComponent("darkTorus1"),
     group8641: makeNodeComponent("group8641"),
-    wireframingButtonsLargeDefault10: makeNodeComponent(
-      "wireframingButtonsLargeDefault10"
-    ),
+    bobaedu: makeNodeComponent("bobaedu"),
     latestBobaBlogs: makeNodeComponent("latestBobaBlogs"),
     wireframingButtonsLargeDefault11: makeNodeComponent(
       "wireframingButtonsLargeDefault11"
@@ -5979,6 +5877,7 @@ export const PlasmicNewPage = Object.assign(
       "loremIpsumIsDummyTextOfThePrintingAndTypesetting"
     ),
     ctaText: makeNodeComponent("ctaText"),
+    readmore: makeNodeComponent("readmore"),
     card2: makeNodeComponent("card2"),
     rectangle7: makeNodeComponent("rectangle7"),
     image2: makeNodeComponent("image2"),
@@ -5987,6 +5886,7 @@ export const PlasmicNewPage = Object.assign(
       "loremIpsumIsDummyTextOfThePrintingAndTypesetting2"
     ),
     ctaText2: makeNodeComponent("ctaText2"),
+    read2: makeNodeComponent("read2"),
     card3: makeNodeComponent("card3"),
     rectangle10: makeNodeComponent("rectangle10"),
     image3: makeNodeComponent("image3"),
@@ -5995,6 +5895,7 @@ export const PlasmicNewPage = Object.assign(
       "loremIpsumIsDummyTextOfThePrintingAndTypesetting3"
     ),
     ctaText3: makeNodeComponent("ctaText3"),
+    read3: makeNodeComponent("read3"),
     card4: makeNodeComponent("card4"),
     rectangle12: makeNodeComponent("rectangle12"),
     image4: makeNodeComponent("image4"),
@@ -6015,11 +5916,13 @@ export const PlasmicNewPage = Object.assign(
     group8574: makeNodeComponent("group8574"),
     rectangle2269: makeNodeComponent("rectangle2269"),
     maskGroup: makeNodeComponent("maskGroup"),
+    whattoken: makeNodeComponent("whattoken"),
     cta: makeNodeComponent("cta"),
     group8612: makeNodeComponent("group8612"),
     rectangle2270: makeNodeComponent("rectangle2270"),
     maskGroup2: makeNodeComponent("maskGroup2"),
     cta2: makeNodeComponent("cta2"),
+    what2: makeNodeComponent("what2"),
     torus2: makeNodeComponent("torus2"),
     coin2: makeNodeComponent("coin2"),
     coin3: makeNodeComponent("coin3"),
@@ -6045,20 +5948,34 @@ export const PlasmicNewPage = Object.assign(
     footerBg: makeNodeComponent("footerBg"),
     bobaLogo: makeNodeComponent("bobaLogo"),
     group5: makeNodeComponent("group5"),
+    dkicon: makeNodeComponent("dkicon"),
+    youicon: makeNodeComponent("youicon"),
+    giticon: makeNodeComponent("giticon"),
+    telicon: makeNodeComponent("telicon"),
+    discon: makeNodeComponent("discon"),
+    twicon: makeNodeComponent("twicon"),
     community: makeNodeComponent("community"),
+    bobaicon: makeNodeComponent("bobaicon"),
     bobaWebsiteNavigation: makeNodeComponent("bobaWebsiteNavigation"),
     rectangle3: makeNodeComponent("rectangle3"),
     group1: makeNodeComponent("group1"),
     d0444D452E6Ecebc11: makeNodeComponent("d0444D452E6Ecebc11"),
     group8616: makeNodeComponent("group8616"),
+    disnav: makeNodeComponent("disnav"),
+    dapnav: makeNodeComponent("dapnav"),
     group8647: makeNodeComponent("group8647"),
+    edunav: makeNodeComponent("edunav"),
+    comnav: makeNodeComponent("comnav"),
+    devnav: makeNodeComponent("devnav"),
     group8617: makeNodeComponent("group8617"),
+    mornav: makeNodeComponent("mornav"),
     wireframingButtonsMedium: makeNodeComponent("wireframingButtonsMedium"),
     buttonDefault7: makeNodeComponent("buttonDefault7"),
     walletApp: makeNodeComponent("walletApp"),
     rectangle2: makeNodeComponent("rectangle2"),
     bobaGamingButton: makeNodeComponent("bobaGamingButton"),
     rectangle2316: makeNodeComponent("rectangle2316"),
+    gamnav: makeNodeComponent("gamnav"),
 
     // Metadata about props expected for PlasmicNewPage
     internalVariantProps: PlasmicNewPage__VariantProps,

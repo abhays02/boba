@@ -106,7 +106,8 @@
   padding-right: 16px;
 }
 .root:hover {
-  background: linear-gradient(90deg, #aaef14 0%, var(--token-a9gNT4Nbc) 100%);
+  background: linear-gradient(90deg, #aaef1466 0%, var(--token-a9gNT4Nbc) 100%);
+  mix-blend-mode: normal;
 }
 .rootcolor_green:hover {
   background: #3cb179;

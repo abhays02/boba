@@ -31,6 +31,16 @@
       }
     },
     {
+      "name": "UnnamedStyleToken 4",
+      "type": "opacity",
+      "value": "50%",
+      "category": "opacity",
+      "meta": {
+        "projectId": "pTegSiZJp55bKXTV98MuX6",
+        "id": "GJyFWMfk1"
+      }
+    },
+    {
       "name": "buttonstyle",
       "type": "color",
       "value": "#1CD5CF",
