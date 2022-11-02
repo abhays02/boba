@@ -7,3 +7,6 @@
   display: block;
   position: relative;
 }
+.root:hover {
+  opacity: 0.4;
+}
